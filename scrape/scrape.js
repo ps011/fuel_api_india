@@ -24,7 +24,8 @@ var util = require('./scrapeUtils');
 
 
 
-var dbUrl = 'mongodb://localhost:27017/fuel_api';
+// var dbUrl = 'mongodb://localhost:27017/fuel_api';
+var dbUrl = 'mongodb://pransh:12345@ds159274.mlab.com:59274/fuel_api';
 // AIzaSyD8CAcnPdwxtI4K4HsVbrbsch_l_zJNHFQ
 router.get('/gps',function(req,res){
   console.log('Request Received');
